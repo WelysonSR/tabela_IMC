@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela IMC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-8">
+
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h2>Tabela IMC</h2>
+                    </div>
+
+                    <div class="card-body">
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">IMC</th>
+                                    <th scope="col">Resultado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Menor que 18,5</td>
+                                    <td>Baixo do peso</td>
+                                </tr>
+                                <tr>
+                                    <td>Entre 18,5 e 24,9</td>
+                                    <td>Pesso normal</td>
+                                </tr>
+                                <tr>
+                                    <td>Entre 25 e 29,9</td>
+                                    <td>Sobrepeso</td>
+                                </tr>
+                                <tr>
+                                    <td>Entre 30 e 34,9</td>
+                                    <td>Obesidade grau 1</td>
+                                </tr>
+                                <tr>
+                                    <td>Entre 35 e 39,9</td>
+                                    <td>Obesidade grau 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Maior de 40</td>
+                                    <td>Obesidade grau 3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>Calcule seu INC</h3>
+
+                        <label>Peso:</label>
+                        <input type="number" class="form-control" aria-label="Exemplo do tamanho do input"
+                            aria-describedby="inputGroup-sizing-default">
+
+                        <label>Altuta:</label>
+                        <input type="number" class="form-control" aria-label="Exemplo do tamanho do input"
+                            aria-describedby="inputGroup-sizing-default">
+
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Calcular</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="./assets/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
