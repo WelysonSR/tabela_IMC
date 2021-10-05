@@ -60,16 +60,20 @@
                         </table>
 
                         <h3>Calcule seu INC</h3>
+                        <form action="/" method="POST" id="formulario">
+                            <label>Peso:</label>
+                            <input id="peso" type="text" class="form-control" aria-label="Exemplo do tamanho do input"
+                                aria-describedby="inputGroup-sizing-default">
 
-                        <label>Peso:</label>
-                        <input type="number" class="form-control" aria-label="Exemplo do tamanho do input"
-                            aria-describedby="inputGroup-sizing-default">
+                            <label>Altuta:</label>
+                            <input id="altura" type="text" class="form-control" aria-label="Exemplo do tamanho do input"
+                                aria-describedby="inputGroup-sizing-default">
 
-                        <label>Altuta:</label>
-                        <input type="number" class="form-control" aria-label="Exemplo do tamanho do input"
-                            aria-describedby="inputGroup-sizing-default">
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Calcular</button>
+                        </form>
 
-                        <button type="button" class="btn btn-primary btn-lg btn-block">Calcular</button>
+                        <div role="alert" id="resultado"></div>
+
                     </div>
                 </div>
 
